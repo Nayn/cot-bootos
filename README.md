@@ -1,8 +1,10 @@
-===================
-Admin theme Cotonti
-===================
+===========================
+Bootos- Admin theme Cotonti
+===========================
 
 Bootos - это тема для панели администратора. Тема создана на базе CSS фреймворка Twitter Bootstrap. 
+
+![](https://github.com/Nayn/cot-bootos/blob/master/preview.png)
 
 Установка:
 
