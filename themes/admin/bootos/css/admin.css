@@ -21,6 +21,8 @@
 .btn-mini {
   line-height:20px;
 }
+input	{ width: inherit!important; margin: 0 auto;}
+
 .table input, .table select {
   margin:0;
 }

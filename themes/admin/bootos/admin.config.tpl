@@ -19,7 +19,7 @@
     <!-- END: ADMIN_CONFIG_SIBLINGS -->
   </div>
   <div class="span9">
-    <form action="{ADMIN_CONFIG_FORM_URL}" method="post">
+    <form name="saveconfig" id="saveconfig" action="{ADMIN_CONFIG_FORM_URL}" method="post">
       <table class="table table-bordered table-striped">
         <thead>
           <tr>

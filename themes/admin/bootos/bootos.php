@@ -60,7 +60,7 @@ $R['input_option'] = '<option value="{$value}"{$selected}>{$title}</option>';
 $R['input_radio'] = '<label class="radio"><input type="radio" name="{$name}" value="{$value}"{$checked}{$attrs} /> {$title}</label>';
 $R['input_radio_separator'] = ' ';
 $R['input_select'] = '<select name="{$name}"{$attrs}>{$options}</select><span class="help-inline">{$error}</span>';
-$R['input_text'] = '<input type="text" name="{$name}" value="{$value}" {$attrs} /><span class="help-inline">{$error}</span>';
+$R['input_text'] = '<input type="text" name="{$name}" value="{$value}" {$attrs} /><span>{$error}</span>';
 $R['input_textarea'] = '<textarea name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea>{$error}';
 $R['input_textarea_editor'] =  '<textarea class="editor" name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea><span class="help-block">{$error}</span>';
 $R['input_textarea_medieditor'] =  '<textarea class="medieditor" name="{$name}" rows="{$rows}" cols="{$cols}"{$attrs}>{$value}</textarea><span class="help-block">{$error}</span>';
