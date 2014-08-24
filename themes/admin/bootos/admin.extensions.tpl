@@ -53,7 +53,7 @@
     <a title="{PHP.L.adm_opt_pauseall_explain}" href="{ADMIN_EXTENSIONS_PAUSE_URL}" class="btn"><i class="icon-pause"></i> {PHP.L.adm_opt_pauseall}</a>
 
     <!-- IF {PHP.exists} -->
-    <a title="{PHP.L.adm_opt_unpauseall_explain}" href="{ADMIN_EXTENSIONS_UNPAUSE_URL}" class="btn"><i class="icon-play"></i> {PHP.L.adm_opt_unpauseall}</a>
+    <a title="{PHP.L.adm_opt_unpauseall_explain}" href="{ADMIN_EXTENSIONS_UNPAUSE_URL}" class="btn"><i class="icon-play"></i> {PHP.L.Activate_all}</a>
     <!-- ENDIF -->
     <a title="{PHP.L.adm_opt_uninstall_explain}" href="{ADMIN_EXTENSIONS_UNINSTALL_URL}" class="btn btn-danger"><i class="icon-remove icon-white"></i> {PHP.L.adm_opt_uninstall}</a>
   <!-- ENDIF -->
