@@ -1,7 +1,7 @@
 Bootos - Admin theme Cotonti
 ============================
 
-Bootos v2.0 - это тема для панели администратора. Тема создана на базе CSS фреймворка Twitter Bootstrap.
+Bootos v2.0 - шаблон для панели администратора Cotonti Siena. Тема создана на базе CSS фреймворка Twitter Bootstrap.
 
 - поддержка работы с фриланс-биржей Freelance 2.0, сайт разработчика биржи&nbsp;<a href="http://cmsworks.ru/apps/freelance2">здесь</a>.
 
