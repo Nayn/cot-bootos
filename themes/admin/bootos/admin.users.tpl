@@ -74,7 +74,9 @@
   </tbody>
 </table>
 
-<h3>{PHP.L.AddGroup}</h3>
+<div><a href="#" onclick="diplay_hide('#block_id');return false;" class="btn btn-success">{PHP.L.AddGroup}</a></div>
+
+<div id="block_id" style="display: none;">
 <form action="{ADMIN_USERS_FORM_URL}" method="post">
   <div class="row">
     <div class="span5">
@@ -185,6 +187,7 @@
     <button type="reset" class="btn">{PHP.L.Reset}</button>
   </div>
 </form>
+</div>
 
 {FILE "{PHP.cfg.themes_dir}/admin/{PHP.cfg.admintheme}/admin.users.register.tpl"}
 

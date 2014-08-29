@@ -22,6 +22,7 @@
 <title>{HEADER_TITLE}</title>
 <script src="js/jquery.min.js"></script>
 <script src="{PHP.cfg.themes_dir}/admin/{PHP.cfg.admintheme}/js/bootstrap.js"></script>
+<script src="{PHP.cfg.themes_dir}/admin/{PHP.cfg.admintheme}/js/script.js"></script>
 </head>
 <body>
   <div class="navbar navbar-fixed-top">

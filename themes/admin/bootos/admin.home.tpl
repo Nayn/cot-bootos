@@ -15,15 +15,22 @@
 
 <div class="row">
   <div class="span3">
-    <div class="well" style="padding: 8px 0;">
+    <div class="well" style="padding: 0px;">
       <ul class="nav nav-list">
         <li class="nav-header"><i class="icon-cog"></i>{PHP.L.home_ql_b1_title}</li>
+		<ul class="follow">
         <li><a href="{PHP|cot_url('admin','m=config&n=edit&o=core&p=main')}">{PHP.L.home_ql_b1_1}</a></li>
         <li><a href="{PHP|cot_url('admin','m=config&n=edit&o=core&p=title')}">{PHP.L.home_ql_b1_2}</a></li>
         <li><a href="{PHP|cot_url('admin','m=config&n=edit&o=core&p=theme')}">{PHP.L.home_ql_b1_3}</a></li>
         <li><a href="{PHP|cot_url('admin','m=config&n=edit&o=core&p=menus')}">{PHP.L.home_ql_b1_4}</a></li>
         <li><a href="{PHP|cot_url('admin','m=config&n=edit&o=core&p=locale')}">{PHP.L.Locale}</a></li>
         <li><a href="{PHP|cot_url('admin','m=extrafields')}">{PHP.L.adm_extrafields}</a></li>
+      </ul>
+      </ul>
+    </div>
+	<div class="well" style="padding: 0px;">
+	  <ul class="nav nav-list">
+	  <li class="nav-header"><i class="icon-edit"></i>{PHP.L.home_ql_b1_info}</li>
         <!-- BEGIN: SIDEPANEL -->
         {ADMIN_HOME_SIDEPANEL}
         <!-- END: SIDEPANEL -->

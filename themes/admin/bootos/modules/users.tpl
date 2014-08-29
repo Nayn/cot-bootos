@@ -8,13 +8,13 @@
 
   <h3>{PHP.L.Users}</h3>
   <div class="row">
-    <div class="span9" style="width:925px;">
+    <div class="span9" style="width:910px;">
       <table class="table table-striped table-condensed">
         <thead>
           <tr>
-            <th style="width:180px;">{USERS_TOP_NAME}</th>
+            <th style="width:175px;">{USERS_TOP_NAME}</th>
             <th>{USERS_TOP_GRPTITLE}</th>
-            <th style="width:100px;">{USERS_TOP_GRPLEVEL}</th>
+            <th style="width:90px;">{USERS_TOP_GRPLEVEL}</th>
             <th style="width:130px;">{USERS_TOP_COUNTRY}</th>
             <th style="width:180px;">{USERS_TOP_REGDATE}</th>
             <th style="width:120px;">{PHP.L.Action}</th>
@@ -45,12 +45,12 @@
       {PHP.L.users_usersperpage}: {USERS_TOP_MAXPERPAGE}
       {PHP.L.users_usersinthissection}: {USERS_TOP_TOTALUSERS}
     </div>
-    <div class="span3" style="float:right;">
+    <div class="span3 filter">
       <h3>{PHP.L.Filters}</h3>
       <form action="{USERS_TOP_FILTER_ACTION}" method="post">
-        <div>{USERS_TOP_FILTERS_COUNTRY}</div>
-        <div>{USERS_TOP_FILTERS_MAINGROUP}</div>
-        <div>{USERS_TOP_FILTERS_GROUP}</div>
+        <div class="line">{USERS_TOP_FILTERS_COUNTRY}</div>
+        <div class="line">{USERS_TOP_FILTERS_MAINGROUP}</div>
+        <div class="line">{USERS_TOP_FILTERS_GROUP}</div>
         <div><input type="text" name="y" value="" placeholder="{PHP.L.Search}"></div>
         <button type="submit" class="btn btn-primary">{PHP.L.Search}</button>
       </form>

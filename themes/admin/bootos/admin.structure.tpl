@@ -81,8 +81,8 @@
     <tfoot>
       <tr>
         <td colspan="6">
-          <button type="submit" class="btn btn-success">{PHP.L.UpdateEntries}</button>
-          <button type="reset" class="btn">{PHP.L.Cancel}</button>
+          <button type="submit" class="btn btn-success" style="margin-top: 5px;">{PHP.L.UpdateEntries}</button>
+          <button type="reset" class="btn" style="margin-top: 5px;">{PHP.L.Cancel}</button>
         </td>
       </tr>
     </tfoot>

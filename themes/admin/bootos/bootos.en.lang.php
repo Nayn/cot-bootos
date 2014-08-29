@@ -182,5 +182,6 @@ $L['Disc_cache']  = 'Disk Cache';
 $L['System_cache']  = 'System Cache';
 $L['Update_category']  = 'Update category';
 $L['Activate_all']  = 'Activate all';
+$L['home_ql_b1_info']  = 'Information site';
 
 ?>

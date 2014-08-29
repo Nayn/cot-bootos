@@ -23,7 +23,7 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            <th style="width:25%;">{PHP.L.Key}</th>
+            <th style="width:40%;">{PHP.L.Key}</th>
             <th>{PHP.L.Value}</th>
             <th style="width:5%;">{PHP.L.Reset}</th>
           </tr>
