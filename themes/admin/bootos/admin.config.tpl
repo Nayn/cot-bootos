@@ -12,7 +12,16 @@
       <ul class="nav nav-list">
         <li class="nav-header"><i class="icon-cog"></i>{ADMIN_CONFIG_OWNER}</li>
         <!-- BEGIN: ADMIN_CONFIG_SIBLINGS_ROW -->
-        <li<!-- IF {ADMIN_CONFIG_SIBLING_ACTIVE} --> class="active"<!-- ENDIF -->><a href="{ADMIN_CONFIG_SIBLING_URL}">{ADMIN_CONFIG_SIBLING_NAME}</a></li>
+        <li<!-- IF {ADMIN_CONFIG_SIBLING_ACTIVE} --> class="active"<!-- ENDIF -->>
+			<a href="{ADMIN_CONFIG_SIBLING_URL}">
+                  <!-- IF {ADMIN_CONFIG_SIBLINGS_ICO} -->
+                  <img src="{ADMIN_CONFIG_SIBLINGS_ICO}" width="20" height="20" class="iconspaced">
+                  <!-- ELSE -->
+                  <img src="{PHP.cfg.system_dir}/admin/img/plugins32.png" width="20" height="20" class="iconspaced">
+                  <!-- ENDIF -->
+                  {ADMIN_CONFIG_SIBLING_NAME}
+            </a>
+		</li>
         <!-- END: ADMIN_CONFIG_SIBLINGS_ROW -->
       </ul>
     </div>
